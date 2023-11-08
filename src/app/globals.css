@@ -1,27 +1,173 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.sidebar {
+  width: 250px;
+  background-color:  #333;
+  color: #fff;
+  /* position: fixed; */
+  height: 100%;
+  overflow: auto;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.sidebar ul {
+  list-style: none;
+  padding: 0;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.sidebar li {
+  padding: 10px;
+}
+
+.sidebar Link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar Link:hover {
+  text-decoration: underline;
+}
+/* .header {
+  display: flex;
+  align-items: center;
+  background-color:lawngreen;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid white;
+} */
+Link{
+  color: #fff;
+}
+
+
+/*  */
+/* Header.css */
+
+/* Header container */
+/* header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 13, 252);
+  color: white;
+  padding: 10px;
+} */
+
+/* Left side with Search */
+/* .search-bar {
+  flex: 1;
+}
+
+
+.search-input {
+  width: 100px;
+padding-top: ;
+  
+  margin-right: 10px;
+}
+
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+
+.heading {
+  flex: 1;
+  text-align: center;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+ 
+  float: left;
+} */
+
+
+/* footer css */
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+.footer {
+  background-color: #24262b;
+  padding: 10px 0;
+  text-align: center;
+  /* Center the content horizontally */
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  height: 115px;
+  border: 3px solid rgb(16, 15, 15);
+  color: white;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+
+}
+
+.social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+ 
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+.maincontent
+{
+  height: 100vh;
+}
+
+.mainBody {
+  display: flex;
+  height: 100vh;
+
+}
+
+
+Navbar {
+  flex: 0 0 217px;
+  
+  background-color: #333;
+ 
+  color: #fff;
+
+  padding: 20px;
+ 
+}
+
+
+.main-content {
+  flex: 1;
+  
+  padding: 20px;
+  
 }

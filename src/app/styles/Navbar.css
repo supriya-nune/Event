@@ -1,0 +1,31 @@
+.sidebar {
+    width: 270px;
+    background-color: #333;
+    color: #fff;
+    /* position: fixed; */
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  .sidebar Link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .sidebar Link:hover {
+    text-decoration: underline;
+  
+  }
+  .text-link{
+    text-decoration: none;
+    color: white;
+  }
+  
